@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registrasi</title>
+  </head>
+  <body>
+    <form action="container" method="post">
+      <fieldset>
+        <legend>Registrasi Form||by:Putra Ari Sandi</legend>
+        <p>
+          <label>Name:</label>
+          <input type="text" name="name" placeholder="Your name..." />
+        </p>
+        <p>
+          <label>Addres:</label>
+          <input type="text" name="Addres" placeholder="Your addres..." />
+        </p>
+        <p>
+          <label>Email:</label>
+          <input type="email" name="email" placeholder="Your email..." />
+        </p>
+        <p>
+          <label>Phone number:</label>
+          <input type="telpon" name="Phone" placeholder="+62..." />
+        </p>
+        <p>
+          <label>Gender:</label>
+          <label
+            ><input type="radio" name="jenis_kelamin" value="Man" />
+            Man</label
+          >
+          <label
+            ><input type="radio" name="jenis_kelamin" value="Woman" />
+            Woman</label
+          >
+        </p>
+        <p>
+          <label>Religion:</label>
+          <select name="agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+            <option value="konghucu">Konghucu</option>
+          </select>
+        </p>
+        <p>
+            <label>Country</label>
+            <select name="Negara">
+              <option value="Indonesia">Indonesia</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Belanda">Belanda</option>
+              <option value="Arabia">Saudi Arabia</option>
+              <option value="Italia">Italia</option>
+              <option value="India">India</option>
+              <option value="Prancis">Prancis</option>
+              <option value="China">China</option>
+              <option value="Korea">Korea</option>
+              <option value="Japan">Japan</option>
+              <option value="Spanyol">Spanyol</option>
+              <option value="Qatar">Qatar</option>
+              <option value="German">German</option>
+            </select>
+          </p>
+        <p>
+            <div>
+                <label for="formFileLg" class="form-label">Photo</label>
+                <input class="form-control form-control-lg" id="formFileLg" type="file">
+              </div>
+        </p>
+        <p>
+          <label>Comment</label>
+          <textarea name="komentar"></textarea>
+        </p>
+        <p>
+          <input type="submit" name="submit" value="Submit" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
